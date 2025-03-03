@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap') ;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+    background: rgb(201, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    min-width: 300px ;
+    background : linear-gradient(yellow,green);
+    padding: 30px ;
+    margin: 80px ;
+    border-radius: 5px ;
+    text-align: center;
+}
+
+
+.container .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px ;
+    text-align: center;
+}
+
+.head .input {
+    padding: 13px 20px ;
+    width: 270px ;
+    border-radius: 4px ;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 13px ;
+    letter-spacing: 0.5px ;
+}
+
+.button {
+    outline: none;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.button img {
+    width: 20px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(252, 252, 91);
+
+}
+
+.weather-deg {
+
+    color: white;
+    font-weight: 500;
+
+}
+
+.weather .weather-report {
+    margin-top: 60px ;
+    width: 100px ;
+    padding: 5px ;
+}
+
+.weather .weather-city {
+
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    font-size: 17px ;
+    padding: 5px ;
+}
+
+.weather .weather-data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px ;
+    gap: 40px ;
+}
+
+.weather-data img {
+    width: 90px ;
+}
+
+.weather-data p {
+    font-size: 13px ;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.5px;
+
+}
+
+.weather-data .col {
+    align-items: center;
+    gap: 5px ;
+    display: flex;
+}
+
+
+.error {
+
+    color: black ;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 20px ;
+    background-color: red ;
+    padding: 4px ;
+}
+
+
+.error {
+    display: none;
+}
+
+.weather {
+    display: none;
+}
+
+
+
+
+
+
+
